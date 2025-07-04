@@ -119,12 +119,11 @@ const Navbar = () => {
         className = {`text-white ${activeSection === 'about' ? 'isActive' : ''}`}
         >About Us</motion.a>
       </li>
-
     </ul>
   )
 
   return (
-    <header className='bg-[#B3DDF2] text-white py-6 px-4 fixed top-0 left-0 right-0 z-10'>
+    <header className='bg-[#B3DDF2] text-white py-6 px-4 fixed top-0 left-0 right-0 z-50'>
         <div className='container mx-auto flex justify-between items-center h-full'>
             {/* logo */}
             <div>
