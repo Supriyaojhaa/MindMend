@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
+
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -142,7 +145,7 @@ const Navbar = () => {
 
             {/* button  */}
             <div className='hidden md:block'>
-              <a href="#contact" className='text-rose-400 bg-white hover:bg-rose-50 px-4 py-2 rounded'>
+              <a href="tel:+911111111111" className='text-rose-400 bg-white hover:bg-rose-50 px-4 py-2 rounded'>
                 Emergency Contacts
               </a>
             </div>

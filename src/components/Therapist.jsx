@@ -1,36 +1,41 @@
-import React from 'react';
-import meeraImg from '../assets/meera .png'
+import React from "react";
+import meeraImg from "../assets/meera.png";
+import arjunImg from "../assets/arjun.png";
+import riyaImg from "../assets/riya.png";
+import sameerImg from "../assets/sameer.png";
+import nishaImg from "../assets/nisha.png";
+import karanImg from "../assets/karan.png";
 
 const therapistList = [
   {
     name: "Dr. Meera Sharma",
     degree: "PhD in Clinical Psychology",
-    image: "meeraImg",
+    image: meeraImg,
   },
   {
     name: "Dr. Arjun Verma",
     degree: "MSc in Counseling Psychology",
-    image: "/therapists/arjun.jpg",
+    image: arjunImg,
   },
   {
     name: "Dr. Riya Kapoor",
     degree: "PhD in Behavioral Therapy",
-    image: "/therapists/riya.jpg",
+    image: riyaImg,
   },
   {
     name: "Dr. Sameer Iqbal",
     degree: "M.Phil in Psychiatry",
-    image: "/therapists/sameer.jpg",
+    image: sameerImg,
   },
   {
     name: "Dr. Nisha Batra",
     degree: "MS in Clinical Psychology",
-    image: "/therapists/nisha.jpg",
+    image: nishaImg,
   },
   {
     name: "Dr. Karan Desai",
     degree: "PhD in Mental Health Studies",
-    image: "/therapists/karan.jpg",
+    image: karanImg,
   }
 ];
 
@@ -65,3 +70,4 @@ const Therapists = () => {
 };
 
 export default Therapists;
+

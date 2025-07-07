@@ -32,12 +32,12 @@ const Footer = () => {
         <div className="text-left">
           <h3 className="text-2xl font-bold text-rose-400 mb-4">Contact Us</h3>
           <div className="flex justify-between max-w-md mx-auto md:mx-0">
-            <a href="tel:+919876543210" className="flex flex-col items-center gap-1 hover:underline">
+            <a href="tel:+911111111111" className="flex flex-col items-center gap-1 hover:underline">
               <FaPhoneAlt size={24} />
-              <span>+91 98765 43210</span>
+              <span>+91 1111111111</span>
             </a>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/911111111111"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-1 hover:underline"
