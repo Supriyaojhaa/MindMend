@@ -14,9 +14,6 @@
 - [📁 Folder Structure](#📁-folder-structure)
 - [🛠️ Installation](#🛠️-installation)
 - [📸 Screenshots](#📸-screenshots)
-- [📚 References](#📚-references)
-- [👩‍💻 Contributors](#👩‍💻-contributors)
-- [📝 License](#📝-license)
 
 ---
 
@@ -121,6 +118,22 @@ MindMend/
 ├── README.md
 └── .gitignore
 
+## 🛠️ Installation
+
+> Make sure **Node.js** and **MongoDB** are installed before proceeding.
+
+bash
+# Clone the repository
+git clone https://github.com/your-username/MindMend.git
+cd MindMend
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+
+
 
 ## 📸 Screenshots
 
@@ -136,22 +149,8 @@ MindMend/
 ![Login]
 ![Screenshot 2025-07-08 024507](https://github.com/user-attachments/assets/ae94895f-b381-4d3c-aca4-3c007390e0bf)
 
-----
+---------
 
-## 🛠️ Installation
-
-> Make sure **Node.js** and **MongoDB** are installed before proceeding.
-
-bash
-# Clone the repository
-git clone https://github.com/your-username/MindMend.git
-cd MindMend
-
-# Install dependencies
-npm install
-
-# Run the project
-npm run dev
 
 Thank you for visiting MindMend! 🌸
 If you found this helpful, consider giving the repo a ⭐️
