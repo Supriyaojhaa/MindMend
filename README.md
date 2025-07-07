@@ -138,15 +138,15 @@ npm run dev
 ## 📸 Screenshots
 
 ### 🔹 Homepage
-![Homepage]
+
 ![Screenshot 2025-07-08 024416](https://github.com/user-attachments/assets/cbf53326-c714-4aeb-858b-bb784128058e)
 
 ### 🔹 Appointment Page
-![Appointment]
+
 ![Screenshot 2025-07-08 024440](https://github.com/user-attachments/assets/2542a0bb-fa65-4625-8c92-8251b1cd7ca5)
 
 ### 🔹 Login Page
-![Login]
+
 ![Screenshot 2025-07-08 024507](https://github.com/user-attachments/assets/ae94895f-b381-4d3c-aca4-3c007390e0bf)
 
 ---------
