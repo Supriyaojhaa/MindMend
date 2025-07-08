@@ -4,7 +4,7 @@ import Appointment from './components/Appointments'
 import Hero from './components/Hero'
 import MoodTracker from './components/MoodTracker'
 import Navbar from './components/Navbar'
-import Login from './components/pages/login'; 
+import Login from './components/pages/Login';
 
 import Services from './components/Services'
 import Therapist from './components/Therapist'
