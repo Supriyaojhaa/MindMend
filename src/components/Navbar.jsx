@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
-
+import Chatbot from './Chatbot';
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
+  const [showChatbot, setShowChatbot] = useState(false);
+
   const handleToggle = () =>{
     setIsOpen(!isOpen)
   }
@@ -16,7 +18,7 @@ const Navbar = () => {
     setIsOpen(false)
   }
   const handleScroll = () =>{
-    const sections = ['home', 'services', 'appointments', 'moodtracker', 'therapists', 'about'];
+    const sections = ['home', 'services', 'appointments', 'moodtracker', 'therapists', 'about', 'selfhelp'];
     const scrollPosition = window.scrollY + 100;
 
     sections.forEach(sections => {
@@ -111,6 +113,21 @@ const Navbar = () => {
         >Therapists</motion.a>
       </li>
       <li>
+        <motion.a
+        href="#selfhelp"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        onClick={(e) => {
+          e.preventDefault();
+          handleCloseMenu();
+          handleScrollTo('selfhelp');
+        }}
+        className={`text-white ${activeSection === 'selfhelp' ? 'isActive' : ''}`}
+        >
+          Self-Help
+          </motion.a>
+      </li>
+      <li>
         <motion.a href="#about"
         whileHover={{scale:1.1}}
         whileTap={{scale:0.9}}
@@ -121,6 +138,20 @@ const Navbar = () => {
         }}
         className = {`text-white ${activeSection === 'about' ? 'isActive' : ''}`}
         >About Us</motion.a>
+      </li>
+      <li>
+        <motion.div
+        className="fixed bottom-6 right-6 z-50"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        >
+          <button
+          onClick={() => setShowChatbot(true)}
+          className="bg-rose-400 text-white rounded-full p-4 shadow-lg"
+          >
+            💬Let's see how you feel
+            </button>
+            </motion.div>
       </li>
     </ul>
   )
@@ -181,6 +212,7 @@ const Navbar = () => {
             </nav>
           )
         }
+        {showChatbot && <Chatbot onClose={() => setShowChatbot(false)} />}
     </header>
   )
 }  

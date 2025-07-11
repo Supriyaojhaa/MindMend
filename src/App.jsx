@@ -13,6 +13,7 @@ import TherapistLogin from "./components/TherapistLogin";
 import TherapistDashboard from "./components/TherapistDashboard";
 
 import { Routes, Route } from 'react-router-dom';
+import SelfHelp from './components/SelfHelp'
 
 const HomePage = () => {
   return (
@@ -23,7 +24,9 @@ const HomePage = () => {
       <Appointment/>
       <MoodTracker/>
       <Therapist />
+      <SelfHelp/>
       <About/>
+      
     </div>
   )
 }
