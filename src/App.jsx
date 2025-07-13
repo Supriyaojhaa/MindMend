@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import MoodTracker from './components/MoodTracker'
 import Navbar from './components/Navbar'
 import Login from './components/pages/Login';
+import SignUp from './components/pages/SignUp';
 
 import Services from './components/Services'
 import Therapist from './components/Therapist'
@@ -36,6 +37,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<SignUp />} />
       <Route path="/therapistLogin" element={<TherapistLogin />} />
       <Route path="/therapistDashboard" element={<TherapistDashboard />} />
     </Routes>
